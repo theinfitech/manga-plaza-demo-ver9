@@ -7,13 +7,236 @@
     <title>manga-plaza</title>
   </head>
   <body>
-    <div style="text-align: center; font-size: 32px">
-      <p>
-        <span
-          >Register now to read the<br />
-          1st chapter for</span
-        ><span> FREE</span>
-      </p>
+    <div class="layout">
+      <div style="margin-top: 51px">
+        <div>
+          <span
+            >Register now to read the<br />
+            1st chapter for</span
+          ><span style="font-weight: 600"> FREE</span>
+        </div>
+        <div style="margin-bottom: 34px">
+          <button class="btn">
+            <span class="textButton">Register Now</span>
+            <span style="margin-left: 15px; align-items: center; display: flex">
+              <image src="img/icon/arrow.png"
+            /></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="layoutInfo">
+        Registration requires <br /><span style="font-weight: 700"
+          >only 3 things;</span
+        >
+      </div>
+      <div
+        style="
+          margin-top: 22px;
+          flex-direction: row;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 77px;
+        "
+      >
+        <div style="flex-direction: column; display: flex">
+          <div
+            style="
+              text-align: center;
+              font-size: 20px;
+              color: #ef3479;
+              font-weight: 700;
+            "
+          >
+            Email
+          </div>
+          <div>
+            <image
+              style="padding-top: 5px; width: 89px"
+              src="img/icon/Email.png"
+            />
+          </div>
+        </div>
+        <div style="flex-direction: column; display: flex; margin-left: 29px">
+          <div
+            style="
+              text-align: center;
+              font-size: 20px;
+              color: #ef3479;
+              font-weight: 700;
+            "
+          >
+            Password
+          </div>
+          <div>
+            <image
+              style="padding-top: 5px; width: 89px"
+              src="img/icon/password.png"
+            />
+          </div>
+        </div>
+        <div style="flex-direction: column; display: flex; margin-left: 29px">
+          <div
+            style="
+              text-align: center;
+              font-size: 20px;
+              color: #ef3479;
+              font-weight: 700;
+            "
+          >
+            Username
+          </div>
+          <div>
+            <image
+              style="padding-top: 5px; width: 89px"
+              src="img/icon/user_name.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="layoutFooter">
+      <div style="padding-top: 35px; padding-bottom: 18px">
+        <image src="img/logo.png" />
+      </div>
+      <div style="padding-top: 35px; padding-bottom: 18px">
+        <span style="font-weight: 700; font-style: normal"
+          >MangaPlaza has <span style="color: #ffa903">76,000</span> chapters of
+          manga.</span
+        ><br /><br />
+        Officially licensed quality manga from Japan.<br /><br />
+        When you subscribe, you get 25,000 chapters,<br />
+        a $27,000 value, for only<span
+          style="color: #ffa903; font-style: normal"
+        >
+          $6.99</span
+        >
+        a month.
+      </div>
+      <div style="margin-top: 30px; margin-bottom: 62px">
+        <button class="btn">
+          <span class="textButton">Register Now</span>
+          <span style="margin-left: 15px; align-items: center; display: flex">
+            <image src="img/icon/arrow.png"
+          /></span>
+        </button>
+      </div>
+      <div style="font-size: 18px; margin-bottom: 40px">
+        Many more popular manga
+      </div>
+      <div style="height: 125px">Slide</div>
     </div>
   </body>
+  <style>
+    @font-face {
+      font-family: SegoeUI;
+      src: local("Segoe UI Light"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2)
+          format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff)
+          format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf)
+          format("truetype");
+      font-weight: 100;
+    }
+
+    @font-face {
+      font-family: SegoeUI;
+      src: local("Segoe UI Semilight"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2)
+          format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff)
+          format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf)
+          format("truetype");
+      font-weight: 200;
+    }
+
+    @font-face {
+      font-family: SegoeUI;
+      src: local("Segoe UI"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2)
+          format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff)
+          format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf)
+          format("truetype");
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: SegoeUI;
+      src: local("Segoe UI Bold"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2)
+          format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff)
+          format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf)
+          format("truetype");
+      font-weight: 600;
+    }
+
+    @font-face {
+      font-family: SegoeUI;
+      src: local("Segoe UI Semibold"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2)
+          format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff)
+          format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf)
+          format("truetype");
+      font-weight: 700;
+    }
+    body {
+      margin: 0px;
+      font-family: SegoeUI;
+    }
+    .layout {
+      font-family: SegoeUI;
+      text-align: center;
+      font-size: 30px;
+      font-style: italic;
+      color: #ff0080;
+      margin: auto;
+      background-image: url("img/background.png");
+      background-image: linear-gradient(#fcd7bf, #ffffff);
+      display: flex;
+      justify-content: center;
+    }
+    .btn {
+      margin: auto;
+      margin-top: 35px;
+      justify-content: center;
+      display: flex;
+      text-align: center;
+      font-size: 25px;
+      font-style: italic;
+      border: none;
+      background-image: linear-gradient(#f1347a, #b32a5d, #a22151);
+      border-radius: 5px;
+      width: 227px;
+      height: 44px;
+      align-items: center;
+    }
+    .textButton {
+      text-align: center;
+      font-style: italic;
+      color: #ffffff;
+    }
+    .layoutInfo {
+      font-family: SegoeUI;
+      text-align: center;
+      font-size: 24px;
+      padding-top: 31px;
+    }
+    .layoutFooter {
+      font-family: SegoeUI;
+      background-color: #242424;
+      text-align: center;
+      font-size: 17px;
+      color: #ffffff;
+      font-style: italic;
+    }
+  </style>
 </html>
