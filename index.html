@@ -1,252 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css"
-    />
-    
-    <title>manga-plaza</title>
-  </head>
-  <body>
-    <div style="position: relative">
-    <div
-      style="
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+  <title>manga-plaza</title>
+</head>
+
+<body style="min-width: 375px">
+  <div style="position: relative">
+    <div style="
         text-align: center;
         margin: 0 auto;
-      "
-    >
-      <img src="img/2.jpg" style="display: block"/>
-      <img src="img/4.jpg" style="display: block"/>
-      <img src="img/5.jpg" style="display: block"/>
-      <img src="img/6.jpg" style="display: block"/>
-      <img src="img/7.jpg" style="display: block"/>
-      <img src="img/8.jpg" style="display: block"/>
-      <img src="img/9.jpg" style="display: block"/>
-      <img src="img/10.jpg" style="display: block"/>
-      <img src="img/11.jpg" style="display: block"/>
-      <img src="img/12.jpg" style="display: block"/>
-      <img src="img/13.jpg" style="display: block"/>
-      <img src="img/14.jpg" style="display: block"/>
-      <img src="img/15.jpg" style="display: block"/>
-      <img src="img/16.jpg" style="display: block"/>
-      <img src="img/17.jpg" style="display: block"/>
-      <img src="img/18.jpg" style="display: block"/>
-      <img src="img/19.jpg" style="display: block"/>
-      <img src="img/20.jpg" style="display: block"/>
-      <img src="img/22.jpg" style="display: block"/>
-      <img src="img/23.jpg" style="display: block"/>
-      <img src="img/24.jpg" style="display: block"/>
-      <img src="img/25.jpg" style="display: block"/>
+      ">
+      <img src="img/2.jpg" style="display: block; width: 100%;" />
+      <img src="img/4.jpg" style="display: block; width: 100%;" />
+      <img src="img/5.jpg" style="display: block; width: 100%;" />
+      <img src="img/6.jpg" style="display: block; width: 100%;" />
+      <img src="img/7.jpg" style="display: block; width: 100%;" />
+      <img src="img/8.jpg" style="display: block; width: 100%;" />
+      <img src="img/9.jpg" style="display: block; width: 100%;" />
+      <img src="img/10.jpg" style="display: block; width: 100%;" />
+      <img src="img/11.jpg" style="display: block; width: 100%;" />
+      <img src="img/12.jpg" style="display: block; width: 100%;" />
+      <img src="img/13.jpg" style="display: block; width: 100%;" />
+      <img src="img/14.jpg" style="display: block; width: 100%;" />
+      <img src="img/15.jpg" style="display: block; width: 100%;" />
+      <img src="img/16.jpg" style="display: block; width: 100%;" />
+      <img src="img/17.jpg" style="display: block; width: 100%;" />
+      <img src="img/18.jpg" style="display: block; width: 100%;" />
+      <img src="img/19.jpg" style="display: block; width: 100%;" />
+      <img src="img/20.jpg" style="display: block; width: 100%;" />
+      <img src="img/22.jpg" style="display: block; width: 100%;" />
+      <img src="img/23.jpg" style="display: block; width: 100%;" />
+      <img src="img/24.jpg" style="display: block; width: 100%;" />
+      <img src="img/25.jpg" style="display: block; width: 100%;" />
     </div>
-    <div style=" position: absolute; width:100%; margin-right: 0px; margin-top:-29px; display:flex; justify-content:end">
-    <div style=" text-align: center;width:170px; height:18px;background-color: #fff; border-radius: 5px;">
-    <p style="font-family: RobotoLight; color:#231F20; font-size:10.5px; margin:0 auto; margin-top:2px">(C)Narumi Ryo/Solmare Publishing</p></div><div style="width:6px"></div></div>
-      </div>
     <div
-      style="
+      style=" position: absolute; width:100%; margin-right: 0px; margin-top:-29px; display:flex; justify-content:end">
+      <div style=" text-align: center;width:170px; height:18px;background-color: #fff; border-radius: 5px;">
+        <p style="font-family: RobotoLight; color:#231F20; font-size:10.5px; margin:0 auto; margin-top:2px">(C)Narumi
+          Ryo/Solmare Publishing</p>
+      </div>
+      <div style="width:6px"></div>
+    </div>
+  </div>
+  <div style="
         background-image: url(img/background.png);
         padding-bottom: 71.5px;
         background-size: cover;
-      "
-    >
-      <div class="layout">
-        <div style="margin-top: 51px">
-          <div>
-            <span>Register now to read the</span><br />
-            <div
-              style="display: flex; align-items: end; justify-content: center"
-            >
-              <div>1st chapter for</div>
-              <div style="margin-left: 7px; height: 35px">
-                <img
-                  src="img/Free.png"
-                  style="width: 70px; height: 22px; padding-top: 9px"
-                />
-              </div>
-            </div>
-          </div>
-          <div style="margin-bottom: 55.5px; margin-top: 44px">
-            <div class="btn">
-              <img src="img/button.png" style="width: 253px"></img>
+      ">
+    <div class="layout">
+      <div style="margin-top: 51px">
+        <div>
+          <span>Register now to read the</span><br />
+          <div style="display: flex; align-items: end; justify-content: center">
+            <div>1st chapter for</div>
+            <div style="margin-left: 7px; height: 35px">
+              <img src="img/Free.png" style="width: 70px; height: 22px; padding-top: 9px" />
             </div>
           </div>
         </div>
-      </div>
-      <div>
-        <div class="layoutInfo">
-          Registration requires <br /><span style="font-family: RobotoBold"
-            >only 3 things</span
-          >
-        </div>
-        <div style="text-align: center; margin-top: 37.3px">
-          <img src="img/Info.png" style="width: 318px"></img>
-        </div>
-      </div>
-    </div>
-    <div class="layoutFooter">
-      <div style="padding-top: 38px; padding-bottom: 17px">
-        <image src="img/logo.png" style="width: 170px" />
-      </div>
-      <div>
-        <span style="font-family: RobotoBold; font-style: normal"
-          >MangaPlaza has <span style="color: #ffa903">76,000</span> chapters of
-          manga.</span
-        ><br /><br />
-        Officially licensed quality manga from Japan.<br /><br />
-        When you subscribe, you get 21,000 chapters,<br />
-        a $23,000 value, for only<span
-          style="color: #ffa903; font-family: RobotoBoldItalic; "
-        >
-          $6.99</span
-        > a month.
-      </div>
-      <div style="margin-bottom: 50px; margin-top: 68px">
-        <div class="btn">
-          <image src="img/button.png" style="width: 253px"></image>
-        </div>
-      </div>
-      <div style="font-size: 17px; font-family:RobotoMediumItalic; margin-bottom: 43px">
-        Many more popular manga
-      </div>
-      <div style="text-align: center">
-        <section
-          class="splide"
-          style="
-            width: 350.5px;
-            height: 114.5px;
-            padding-bottom: 25px;
-            margin: 0 auto;
-          "
-          aria-label="Splide Basic HTML Example"
-        >
-          <div class="splide__track" style="text-align: center">
-            <ul class="splide__list">
-              <li class="splide__slide">
-                <img src="img/slide_01.jpg" style="width: 80.3px" />
-                <img
-                  src="img/slide_02.jpg"
-                  style="width: 80.3px; margin-left: 6px; margin-right: 6px"
-                />
-                <img src="img/slide_03.jpg" style="width: 80.3px" />
-              </li>
-              <li class="splide__slide">
-                <img src="img/slide_01.jpg" style="width: 80.3px" />
-                <img
-                  src="img/slide_02.jpg"
-                  style="width: 80.3px; margin-left: 6px; margin-right: 6px"
-                />
-                <img src="img/slide_03.jpg" style="width: 80.3px" />
-              </li>
-            </ul>
+        <div style="margin-bottom: 55.5px; margin-top: 44px">
+          <div class="btn">
+            <img src="img/button.png" style="width: 253px"></img>
           </div>
-        </section>
+        </div>
       </div>
     </div>
-    <script>
-      new Splide(".splide").mount();
-    </script>
-  </body>
-  <style>
-    @font-face {
-      font-family: RobotoLight;
-      src: url(font/Roboto-Light.ttf) format("truetype");
-    }
+    <div>
+      <div class="layoutInfo">
+        Registration requires <br /><span style="font-family: RobotoBold">only 3 things</span>
+      </div>
+      <div style="text-align: center; margin-top: 37.3px">
+        <img src="img/Info.png" style="width: 318px"></img>
+      </div>
+    </div>
+  </div>
+  <div class="layoutFooter">
+    <div style="padding-top: 38px; padding-bottom: 17px">
+      <image src="img/logo.png" style="width: 170px" />
+    </div>
+    <div>
+      <span style="font-family: RobotoBold; font-style: normal">MangaPlaza has <span
+          style="color: #ffa903">76,000</span> chapters of
+        manga.</span><br /><br />
+      Officially licensed quality manga from Japan.<br /><br />
+      When you subscribe, you get 21,000 chapters,<br />
+      a $23,000 value, for only<span style="color: #ffa903; font-family: RobotoBoldItalic; ">
+        $6.99</span> a month.
+    </div>
+    <div style="margin-bottom: 50px; margin-top: 68px">
+      <div class="btn">
+        <image src="img/button.png" style="width: 253px"></image>
+      </div>
+    </div>
+    <div style="font-size: 17px; font-family:RobotoMediumItalic; margin-bottom: 43px">
+      Many more popular manga
+    </div>
+    <div style="text-align: center">
+      <div class="swiper-container" style="width: 350.5px;
+      height: 114.5px;
+      padding-bottom: 25px;
+      margin: 0 auto;">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"> <img src="img/slide_01.jpg" style="width: 80.3px" />
+            <img src="img/slide_02.jpg" style="width: 80.3px; margin-left: 6px; margin-right: 6px" />
+            <img src="img/slide_03.jpg" style="width: 80.3px" /></div>
+          <div class="swiper-slide"> <img src="img/slide_01.jpg" style="width: 80.3px" />
+            <img src="img/slide_02.jpg" style="width: 80.3px; margin-left: 6px; margin-right: 6px" />
+            <img src="img/slide_03.jpg" style="width: 80.3px" /></div>
+          <div class="swiper-slide"> <img src="img/slide_01.jpg" style="width: 80.3px" />
+            <img src="img/slide_02.jpg" style="width: 80.3px; margin-left: 6px; margin-right: 6px" />
+            <img src="img/slide_03.jpg" style="width: 80.3px" /></div>
+        </div>
 
-    @font-face {
-      font-family: RobotoBold;
-      src: url(font/Roboto-Bold.ttf) format("truetype");
-    }
-    @font-face {
-      font-family: RobotoBoldItalic;
-      src: url(font/Roboto-BoldItalic.ttf) format("truetype");
-    }
-    @font-face {
-      font-family: RobotoItalic;
-      src: url(font/Roboto-Italic.ttf) format("truetype");
-    }
-    @font-face {
-      font-family: RobotoMedium;
-      src: url(font/Roboto-Medium.ttf) format("truetype");
-    }
-    @font-face {
-      font-family: RobotoMediumItalic;
-      src: url(font/Roboto-MediumItalic.ttf) format("truetype");
-    }
-    @font-face {
-      font-family: Roboto;
-      src: url(font/Roboto-Regular.ttf) format("truetype");
-    }
-    body {
-      margin: 0px;
-      font-family: Roboto;
-    }
-    .layout {
-      font-family: RobotoItalic;
-      text-align: center;
-      font-size: 26px;
-      color: #ff0080;
-      margin: auto;
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </div>
+  <script type="module">
+    import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
 
-      display: flex;
-      justify-content: center;
-    }
+    const swiper = new Swiper('.swiper-container', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
 
-    .textButton {
-      text-align: center;
-      font-style: italic;
-      color: #ffffff;
-    }
-    .layoutInfo {
-      font-family: Roboto;
-      text-align: center;
-      font-size: 26px;
-    }
-    .layoutFooter {
-      font-family: Roboto;
-      background-color: #242424;
-      text-align: center;
-      font-size: 17px;
-      color: #ffffff;
-      font-style: italic;
-    }
-    .btn {
-      cursor: pointer;
-      display: block;
-      width: 253px;
-      height: 48px;
-      margin: 40px auto 0;
-      color: #fff;
-      font-size: 1.5em;
-      box-shadow: 0px 5px 0 transition;
-      transition: 0.3s;
-      border-radius: 15px;
-    }
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+<style>
+  @font-face {
+    font-family: RobotoLight;
+    src: url(font/Roboto-Light.ttf) format("truetype");
+  }
 
-    .btn:hover {
-      transform: translate3d(0, 5px, 0);
-      color: #007db9;
-      box-shadow: none;
-      background: #fff;
-    }
-    .splide__pagination {
-      visibility: hidden;
-    }
-    .splide__arrow {
-      background: transparent;
-      border-radius: none;
-      height: 14px;
-      margin-top: -15px;
-    }
-    .splide__arrow svg {
-      fill: #ff0080;
-      position:absolute;
-      width: 24px;
-      height: 30px;
-    }
-  </style>
+  @font-face {
+    font-family: RobotoBold;
+    src: url(font/Roboto-Bold.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: RobotoBoldItalic;
+    src: url(font/Roboto-BoldItalic.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: RobotoItalic;
+    src: url(font/Roboto-Italic.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: RobotoMedium;
+    src: url(font/Roboto-Medium.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: RobotoMediumItalic;
+    src: url(font/Roboto-MediumItalic.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: Roboto;
+    src: url(font/Roboto-Regular.ttf) format("truetype");
+  }
+
+  body {
+    margin: 0px;
+    font-family: Roboto;
+  }
+
+  .layout {
+    font-family: RobotoItalic;
+    text-align: center;
+    font-size: 26px;
+    color: #ff0080;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .textButton {
+    text-align: center;
+    font-style: italic;
+    color: #ffffff;
+  }
+
+  .layoutInfo {
+    font-family: Roboto;
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .layoutFooter {
+    font-family: Roboto;
+    background-color: #242424;
+    text-align: center;
+    font-size: 17px;
+    color: #ffffff;
+    font-style: italic;
+  }
+
+  .btn {
+    cursor: pointer;
+    display: block;
+    width: 253px;
+    height: 48px;
+    margin: 40px auto 0;
+    color: #fff;
+    font-size: 1.5em;
+    box-shadow: 0px 5px 0 transition;
+    transition: 0.3s;
+    border-radius: 15px;
+  }
+
+  .btn:hover {
+    transform: translate3d(0, 5px, 0);
+    color: #007db9;
+    box-shadow: none;
+    background: #fff;
+  }
+
+  .swiper-button-next:after{
+    font-size: 23px;
+    font-style: normal;
+    color:#ff0080;
+    margin-top: -15px;
+    font-weight: 700;
+  }
+  .swiper-button-prev:after{
+    font-size: 23px;
+    font-style: normal;
+    color:#ff0080;
+    margin-top: -15px;
+    font-weight: 700;
+  }
+</style>
+
 </html>
