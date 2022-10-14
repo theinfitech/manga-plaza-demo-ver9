@@ -41,11 +41,11 @@
       <img src="img/19.webp" style="display: block; width: 100%;" />
       <img src="img/20.webp" style="display: block; width: 100%;" />
       <img src="img/21.webp" style="display: block; width: 100%;" />
-      
+
     </div>
-    <div
-      style=" position: absolute; width:100%;  margin-top:-29px;">
-      <div style=" text-align: center;float:right; width:170px; height:18px;background-color: #fff; border-radius: 5px; margin-right: 6px;">
+    <div style=" position: absolute; width:100%;  margin-top:-29px;">
+      <div
+        style=" text-align: center;float:right; width:170px; height:18px;background-color: #fff; border-radius: 5px; margin-right: 6px;">
         <p style="font-family: RobotoLight; color:#231F20; font-size:10.5px; margin:0 auto; margin-top:2px">(C)Narumi
           Ryo/Solmare Publishing</p>
       </div>
@@ -60,17 +60,22 @@
       <div style="padding-top: 13.6vw">
         <div>
           <span>Register now to read the</span><br />
-            1st chapter for
-              <img src="img/Free.png" style="height:4.95vw"/>
-          </div>
-        </div>
-        <div style="margin-bottom: 14.8vw; margin-top: 11.737vw">
-          <div class="btn">
-            <img src="img/button.png" style="  height: 12.8vw;"></img>
-          </div>
+          1st chapter for
+          <img src="img/Free.png" style="height:4.95vw" />
         </div>
       </div>
-    
+      <div style="margin-bottom: 14.8vw; margin-top: 11.737vw" class="btn-root">
+
+        <div class="btn" style="position: relative;">
+          <div class="btnBack"></div>
+          <div style="z-index: 10;position:absolute;">
+            <image src="img/button.png" style="height: 12.8vw; z-index: 100;"></image>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
     <div>
       <div class="layoutInfo">
         Registration requires <br /><span style="font-family: RobotoBold">only 3 things</span>
@@ -80,7 +85,7 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
   <div class="layoutFooter">
     <div style="padding-top: 10.14vw; padding-bottom: 4.55vw">
       <image src="img/logo.png" style="width: 45.34vw" />
@@ -94,9 +99,12 @@
       a $23,000 value, for only<span style="color: #ffa903; font-family: RobotoBoldItalic; ">
         $6.99</span> a month.
     </div>
-    <div style="margin-bottom: 13.34vw; margin-top: 18.135vw">
-      <div class="btn">
-        <image src="img/button.png" style="height: 12.8vw;"></image>
+    <div style="margin-bottom: 13.34vw; margin-top: 18.135vw" class="btn-root">
+      <div class="btn" style="position: relative;">
+        <div class="btnBack"></div>
+        <div style="z-index: 10;position:absolute;">
+          <image src="img/button.png" style="height: 12.8vw; z-index: 100;"></image>
+        </div>
       </div>
     </div>
     <div style="font-size: 4.5334vw; font-family:RobotoMediumItalic; margin-bottom: 11.47vw">
@@ -112,7 +120,8 @@
           <!-- Slides -->
           <div class="swiper-slide"> <img src="img/slide_01.jpg" style="width: 21.34vw" />
             <img src="img/slide_02.jpg" style="width: 21.34vw; margin-left:1.6vw; margin-right:1.6vw" />
-            <img src="img/slide_03.jpg" style="width: 21.34vw" /></div>
+            <img src="img/slide_03.jpg" style="width: 21.34vw" />
+          </div>
         </div>
 
         <!-- If we need navigation buttons -->
@@ -214,38 +223,60 @@
     margin: 40px auto 0;
     color: #fff;
     font-size: 1.5em;
-    box-shadow: 5px 1.3vw 0px #eac4d7 ;
+    /* box-shadow: 5px 1.3vw 0px #eac4d7 ; */
     transition: 0.3s;
     height: 12.8vw;
     border-radius: 15px;
     width: 67.4vw;
   }
 
-  .btn:hover {
+  .btn-root:hover .btn {
     transform: translate3d(0, 7px, 0);
     color: transparent;
     box-shadow: none;
     background: transparent;
   }
 
-  .swiper-button-next:after{
+  .btnBack {
+    transition: all 0.3s;
+    background-color: #eac4d7;
+    height: 12.8vw;
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    margin-left: 5px;
+    border-radius: 2.55vw;
+    margin-top: 5px
+  }
+
+  .btn-root:hover .btnBack {
+    background-color: transparent;
+    transform: translate3d(-5px, -5px, -5px);
+  }
+
+  .swiper-button-next:after {
     font-size: 6.2vw;
     font-style: normal;
-    color:#ff0080;
+    color: #ff0080;
     margin-top: -4vw;
     font-weight: 700;
   }
-  .swiper-button-prev:after{
+
+  .swiper-button-prev:after {
     font-size: 6.2vw;
     font-style: normal;
-    color:#ff0080;
+    color: #ff0080;
     margin-top: -4vw;
     font-weight: 700;
   }
-  .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+
+  .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next {
     left: 2.7vw;
   }
-  .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+
+  .swiper-button-next,
+  .swiper-container-rtl .swiper-button-prev {
     right: 2.7vw;
   }
 </style>
