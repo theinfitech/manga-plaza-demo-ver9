@@ -42,7 +42,7 @@ body {
 }
 
 .layout-cta {
-  background-image: url(/img/background.png);
+  background-image: url(../img/background.png);
   padding-bottom: 19vw;
   background-size: cover;
 }
@@ -99,7 +99,7 @@ body {
   text-align: center;
   font-size: 4.5334vw;
   color: #ffffff;
-  background-image: url(/img/backgroundFooter.png);
+  background-image: url(../img/backgroundFooter.png);
   background-size: cover;
   font-family: Roboto;
 }
