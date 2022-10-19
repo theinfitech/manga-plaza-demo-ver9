@@ -1,8 +1,9 @@
 body {
-  margin: 0px;
+  margin: 0 auto;
   font-family: Roboto;
   font-weight: 400;
   min-width: 375px;
+  max-width: 990px;
 }
 
 .layout-content {
@@ -102,6 +103,7 @@ body {
   background-image: url(../img/backgroundFooter.png);
   background-size: cover;
   font-family: Roboto;
+  max-width: 990px;
 }
 
 .text-content-footer {
@@ -236,4 +238,116 @@ body {
   height: 30vw;
   margin-left: 1.6vw;
   margin-right: 1.6vw;
+}
+
+@media (min-width:991px) {
+  .layout {
+    font-size: 69px;
+  }
+
+  .content-absolute {
+    max-width: 990px;
+    margin: 0 auto;
+    margin-top: -29px;
+  }
+
+  .text-content-cta {
+    text-shadow: -2px 0 #fff, 0 4px #fff, 4px 0 #fff, 0 -2px #fff;
+  }
+
+  .layout-cta {
+    padding-bottom: 188px !important;
+  }
+
+  .content-cta {
+    padding-top: 135px !important;
+  }
+
+  .image-btn {
+    width: 668px;
+    height: 138px !important;
+  }
+
+  .btn-root {
+    margin-top: 179.5px;
+    margin-bottom: 132.5px;
+  }
+
+  .btnBack {
+    width: 668px !important;
+    height: 138px !important;
+    border-radius: 30px !important;
+  }
+
+  .btn {
+    width: 668px !important;
+    height: 138px !important;
+  }
+
+  .layoutInfo {
+    font-size: 69px !important;
+  }
+
+  .content-info {
+    margin-top: 108px !important;
+  }
+
+  .image-content-info {
+    height: 322.5px !important;
+  }
+
+  .layoutFooter {
+    font-size: 45px !important;
+    max-width: 990px !important;
+  }
+
+  .image-logo {
+    padding-top: 100.5px !important;
+    margin-bottom: 45px;
+    width: 449px !important;
+  }
+
+  .text-footer {
+    font-size: 45px;
+    margin-bottom: 107px;
+  }
+
+  .image-slide {
+    width: 221.5px;
+    height: 297px;
+  }
+
+  .image-slide-center {
+    width: 221.5px;
+    height: 297px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .swiper-container {
+    height: 303px;
+    padding-bottom: 66px;
+    margin: 0 auto;
+  }
+
+  .swiper-button-next:after {
+    font-size: 61.38px;
+    margin-top: -22px;
+  }
+
+  .swiper-button-prev:after {
+    font-size: 61.38px;
+    margin-top: -22px;
+  }
+
+  .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next {
+    left: 39.6px;
+  }
+
+  .swiper-button-next,
+  .swiper-container-rtl .swiper-button-prev {
+    right: 39.6px;
+  }
+
 }
