@@ -14,13 +14,13 @@ body {
 .image-content {
   width: 100%;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .content-absolute {
   position: absolute;
   width: 100%;
-  margin-top: -29px;
+  margin-top: -35px;
 }
 
 .text-content {
@@ -36,10 +36,6 @@ body {
   color: #000;
   font-size: 10.5px;
   font-family: Roboto;
-}
-
-.margin-image {
-  margin-bottom: 30px;
 }
 
 .text-absolute {
@@ -251,10 +247,14 @@ body {
     font-size: 69px;
   }
 
+  .image-content {
+    margin-bottom: 15px !important;
+  }
+
   .content-absolute {
     max-width: 990px;
     margin: 0 auto;
-    margin-top: -29px;
+    margin-top: -35px;
   }
 
   .text-content-cta {
