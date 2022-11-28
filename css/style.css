@@ -38,6 +38,10 @@ body {
   font-family: Roboto;
 }
 
+.margin-image {
+  margin-bottom: 30px;
+}
+
 .text-absolute {
   margin: 0 auto;
   margin-top: 1px;
