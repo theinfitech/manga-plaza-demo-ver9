@@ -17,10 +17,14 @@ body {
   margin-bottom: 10px;
 }
 
+.margin-image {
+  margin-bottom: 15px;
+}
+
 .content-absolute {
   position: absolute;
   width: 100%;
-  margin-top: -35px;
+  margin-top: -15px;
 }
 
 .text-content {
@@ -254,7 +258,7 @@ body {
   .content-absolute {
     max-width: 990px;
     margin: 0 auto;
-    margin-top: -35px;
+    margin-top: -15px;
   }
 
   .text-content-cta {
