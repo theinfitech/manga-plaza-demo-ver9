@@ -14,11 +14,7 @@ body {
 .image-content {
   width: 100%;
   display: block;
-  margin-bottom: 10px;
-}
-
-.margin-image {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .content-absolute {
@@ -252,7 +248,7 @@ body {
   }
 
   .image-content {
-    margin-bottom: 15px !important;
+    margin-bottom: 5px !important;
   }
 
   .content-absolute {
