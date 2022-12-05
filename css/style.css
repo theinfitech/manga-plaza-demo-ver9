@@ -253,7 +253,7 @@ body {
   .content-absolute {
     max-width: 990px;
     margin: 0 auto;
-    margin-top: -15px;
+    margin-top: -25px;
   }
 
   .text-content-cta {
@@ -360,7 +360,7 @@ body {
   .content-absolute {
     width: 100%;
     padding: 0 !important;
-    margin-top: -14px;
+    margin-top: -10px;
     position: absolute !important;
   }
   .layout-cta{
