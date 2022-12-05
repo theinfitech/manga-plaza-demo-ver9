@@ -14,7 +14,7 @@ body {
 .image-content {
   width: 100%;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .content-absolute {
@@ -360,7 +360,7 @@ body {
   .content-absolute {
     width: 100%;
     padding: 0 !important;
-    margin-top: -5px;
+    margin-top: -14px;
     position: absolute !important;
   }
   .layout-cta{
