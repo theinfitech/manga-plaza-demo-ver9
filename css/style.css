@@ -356,3 +356,14 @@ body {
   }
 
 }
+@media only screen and (max-width: 989px) {
+  .content-absolute {
+    width: 100%;
+    padding: 0 !important;
+    margin-top: -5px;
+    position: absolute !important;
+  }
+  .layout-cta{
+    margin-top: 13px
+  }
+}
