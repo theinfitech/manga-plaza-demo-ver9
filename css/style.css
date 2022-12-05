@@ -18,9 +18,8 @@ body {
 }
 
 .content-absolute {
-  position: absolute;
   width: 100%;
-  margin-top: -19px;
+  padding: 10px 0 12px 0;
 }
 
 .text-content {
@@ -254,7 +253,7 @@ body {
   .content-absolute {
     max-width: 990px;
     margin: 0 auto;
-    margin-top: -19px;
+    margin-top: -15px;
   }
 
   .text-content-cta {
